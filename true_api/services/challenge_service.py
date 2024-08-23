@@ -1,5 +1,5 @@
-from truesmp_site.core import Service
-from truesmp_site.models.challenge import Challenge
+from true_api.core import Service
+from true_api.models.challenge import Challenge
 
 class ChallengeService(Service):
     __model__ = Challenge

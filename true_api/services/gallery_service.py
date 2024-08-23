@@ -1,5 +1,5 @@
-from truesmp_site.core import Service
-from truesmp_site.models.gallery_post import GalleryPost
+from true_api.core import Service
+from true_api.models.gallery_post import GalleryPost
 
 class GalleryService(Service):
     __model__ = GalleryPost

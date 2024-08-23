@@ -1,5 +1,5 @@
-# truesmp_site/models/challenge_road.py
-from truesmp_site.extensions import db
+# true_api/models/challenge_road.py
+from true_api.extensions import db
 
 class ChallengeRoad(db.Model):
     __tablename__ = 'challenge_roads'

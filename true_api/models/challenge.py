@@ -1,4 +1,4 @@
-from truesmp_site.extensions import db
+from true_api.extensions import db
 from datetime import datetime
 
 class Challenge(db.Model):

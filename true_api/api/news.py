@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from truesmp_site.services.news_service import NewsService
+from true_api.services.news_service import NewsService
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 bp = Blueprint('news', __name__, url_prefix='/news')

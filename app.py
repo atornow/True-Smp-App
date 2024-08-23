@@ -1,5 +1,5 @@
-from truesmp_site import create_app
-from truesmp_site.extensions import db
+from true_api import create_app
+from true_api.extensions import db
 from flask.cli import FlaskGroup
 
 app = create_app()

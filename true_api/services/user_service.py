@@ -1,5 +1,5 @@
-from truesmp_site.core import Service
-from truesmp_site.models.user import User
+from true_api.core import Service
+from true_api.models.user import User
 
 class UserService(Service):
     __model__ = User

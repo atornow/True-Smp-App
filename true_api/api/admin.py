@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from truesmp_site.services.user_service import UserService
-from truesmp_site.services.challenge_service import ChallengeService
+from true_api.services.user_service import UserService
+from true_api.services.challenge_service import ChallengeService
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 bp = Blueprint('admin', __name__, url_prefix='/admin')
