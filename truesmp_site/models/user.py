@@ -1,4 +1,4 @@
-from models import db
+from truesmp_site.extensions import db
 from datetime import datetime
 
 class User(db.Model):
