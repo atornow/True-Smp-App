@@ -5,3 +5,4 @@ PyMySQL
 python-dotenv
 Flask-Migrate
 Flask-Script
+psycopg2-binary
