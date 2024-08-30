@@ -1,5 +1,5 @@
-from true_api.core import Service
-from true_api.models.challenge import Challenge
+from services.core import Service
+from models.challenge import Challenge
 
 class ChallengeService(Service):
     __model__ = Challenge
@@ -14,6 +14,7 @@ class ChallengeService(Service):
     def update_challenge_progress(self, challenge_id, progress):
         challenge = self.get(challenge_id)
         if challenge:
+            challenge.curr
             challenge.current_progress = progress
             return self.save(challenge)
         return None

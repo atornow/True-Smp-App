@@ -1,4 +1,4 @@
-from true_api.extensions import db
+from utils.extensions import db
 from datetime import datetime
 
 class NewsPost(db.Model):

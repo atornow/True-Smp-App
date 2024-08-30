@@ -1,5 +1,5 @@
-from true_api.core import Service
-from true_api.models.gallery_post import GalleryPost
+from services.core import Service
+from models.gallery_post import GalleryPost
 
 class GalleryService(Service):
     __model__ = GalleryPost

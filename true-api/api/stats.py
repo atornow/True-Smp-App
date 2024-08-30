@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from true_api.services.user_service import UserService
+from services.user_service import UserService
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 bp = Blueprint('stats', __name__, url_prefix='/stats')

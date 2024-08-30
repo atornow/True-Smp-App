@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from true_api.services.gallery_service import GalleryService
+from services.gallery_service import GalleryService
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 bp = Blueprint('gallery', __name__, url_prefix='/gallery')

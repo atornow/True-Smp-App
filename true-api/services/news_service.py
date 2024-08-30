@@ -1,5 +1,5 @@
-from true_api.core import Service
-from true_api.models.news_post import NewsPost
+from services.core import Service
+from models.news_post import NewsPost
 
 class NewsService(Service):
     __model__ = NewsPost

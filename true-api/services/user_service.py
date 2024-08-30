@@ -1,5 +1,5 @@
-from true_api.core import Service
-from true_api.models.user import User
+from services.core import Service
+from models.user import User
 
 class UserService(Service):
     __model__ = User
