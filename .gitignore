@@ -4,7 +4,7 @@
 Pipfile.lock
 
 #true-ui dependencies
-/node_modules
+true-ui/node_modules
 /.pnp
 .pnp.js
 true-ui/package-lock.json
