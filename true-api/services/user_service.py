@@ -1,4 +1,4 @@
-from services.core import Service
+from .core import Service
 from models.user import User
 
 class UserService(Service):
